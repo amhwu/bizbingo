@@ -1,3 +1,4 @@
+import 'package:bizbingo/screens/game_component.dart';
 import 'package:bizbingo/screens/menu_component.dart';
 import 'package:bizbingo/theme.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: theme,
-      home: const MenuComponent(),
+      home: const GameComponent(),
     );
   }
 }
