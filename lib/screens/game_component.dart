@@ -14,7 +14,9 @@ class _GameComponentState extends State<GameComponent> {
   Widget build(BuildContext context) {
     // 25 by 25
     return Scaffold(
-      body: Center(),
+      body: Center(
+        child: Text("main grid"),
+      ),
     );
   }
 }
